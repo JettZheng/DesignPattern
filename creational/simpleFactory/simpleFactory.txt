@@ -1,0 +1,10 @@
+not a true pattern
+
+encapsulates object creation in one place
+
+should be the only part of the application that 
+refers to the concrete classes
+
+reduces duplicate code by enforcing DRY
+
+isolation of create detail

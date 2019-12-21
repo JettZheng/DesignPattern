@@ -1,0 +1,39 @@
+SOLID Design Principle  (more flexible,reusable,maintainable)
+
+
+
+Single Responsibility Principle:
+An object should only do 1 thing and one reason to change(Responsibility)
+
+    notes:if u have more than 1 kind of reason to change class,need to check.
+
+
+
+Open-closed Principle:
+Software entity(class,module,function) should be open for extension,but closed for modification
+
+    notes:the keypoint is abstraction(interface ,abstract class)
+
+
+
+Liskov Substitution Principle:
+basetype should be replaceable with instances of their subtype,and the program still keeps correctness.
+    
+    notes:used for check the inheritance
+
+
+
+Interface Segregation Principle:
+a client should never be forced to depend on methods it never use.
+
+    notes：replace fat interface with many small,specific interfaces, and do combination.
+
+
+
+Dependency Invertion Principle:
+high level module should not depend on the low level module,should depend on abstraction
+depend on abstraction not on the concrete type
+
+    notes:checkout dependency injection and IOC container
+
+
