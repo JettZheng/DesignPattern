@@ -1,7 +1,0 @@
-create abstract class to generic the process of some method
-
-then use sub class to implement
-
-so we can get a generic method call
-
-but on different subclass

@@ -1,4 +1,49 @@
-creational patterns:
+[creational patterns]:
 these patterns about object creation and class instantiation.
 
-factory,builder,singleton,object pool,prototype
+[factory]:[S.O.D.DRY]
+provides a way to hide the creation logic behind
+
+the client only interacts with a factory tells what is needed
+the factory according req to give a concrete object instance
+
+[abstract factory]:
+create a family of related objects.
+
+it is an abstraction over the factory pattern.
+
+[builder]:
+constructing complex objects.
+
+constructing steps put into functions
+
+get builder  lazy construct by director to decide when to build
+
+[singleton]:
+only one single instance of the struct should exist
+
+ex1.DB instance
+we only want to create only one db object that
+use throughout the application
+
+ex2.Logger instance
+again only one instance of the logger should be
+created and it should be used throughpout the application
+
+q1.singleton vs static
+Singleton is used when a single object needs to be instantiated 
+and all requested object access goes through this particular instance.can be disposed (object oriented
+
+Static Utility is used when you have a class that is just stateless utility functions.. 
+it does not maintain state. An instance of the object is never instantiated.(static function
+
+[object pool]:
+objects is initialized and created beforehand kept in pool
+objects in the pool never destroyed
+
+when cost to create object is high and the number of objects
+that will be needed at a particular time is not much
+
+[prototype]:
+for expose an clone interface to clone self.
+
