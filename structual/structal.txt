@@ -1,4 +1,5 @@
 structal patterns:
+deal with composition and relations
 
 [adapter]:interface not compatible
 
@@ -7,5 +8,3 @@ structal patterns:
 [decorator]:decorate at run time
 
 [proxy]:add extra layer control access before touch the object,at design time
-
-
