@@ -1,0 +1,11 @@
+structal patterns:
+
+[adapter]:interface not compatible
+
+[facade]:simplify the complex api to what u want
+
+[decorator]:decorate at run time
+
+[proxy]:add extra layer control access before touch the object,at design time
+
+

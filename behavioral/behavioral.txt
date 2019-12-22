@@ -1,1 +1,18 @@
+[behavioral patterns]:
 deal with resposibilities and communication between objects
+
+[command]:
+bind Client UI with command,command with handler
+
+[interator]:
+provide an interator(has next,get next) for the collection
+without exposing implementation
+
+[templateMethod]:
+define a template skeleton.put the concrete detail in subclass
+
+[strategy]:
+interface accept different behavior, change behavior at runtime
+
+[observer]:
+trigger change
