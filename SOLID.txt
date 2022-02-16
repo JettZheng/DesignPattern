@@ -1,4 +1,4 @@
-SOLID Design Principle  (more flexible,reusable,maintainable)
+SOLID Design Principle  (following these design principle,principle which makes software more flexible,reusable,maintainable)
 
 
 
@@ -35,5 +35,7 @@ high level module should not depend on the low level module,should depend on abs
 depend on abstraction not on the concrete type
 
     notes:checkout dependency injection and IOC container
+
+Don't Repeat Yourself Principle：
 
 

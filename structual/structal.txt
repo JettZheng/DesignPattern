@@ -5,6 +5,6 @@ deal with composition and relations
 
 [facade]:simplify the complex api to what u want
 
-[decorator]:decorate at run time
+*[decorator]:decorate at run time
 
-[proxy]:add extra layer control access before touch the object,at design time
+*[proxy]:add extra layer control access before touch the object,at design time

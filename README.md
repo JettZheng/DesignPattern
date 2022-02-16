@@ -1,4 +1,3 @@
-# Design Patterns Based on SOLID
+# Design Patterns Based on S.O.L.I.D
 
-This repo keeps examples of all patterns that I like.
-Enjoy and try to be a good janitor!
+This repo keeps examples of all design patterns that I like.

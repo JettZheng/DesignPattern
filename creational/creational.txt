@@ -12,14 +12,14 @@ create a family of related objects.
 
 it is an abstraction over the factory pattern.
 
-[builder]:
+*[builder]:
 constructing complex objects.
 
 constructing steps put into functions
 
 get builder  lazy construct by director to decide when to build
 
-[singleton]:
+*[singleton]:
 only one single instance of the struct should exist
 
 ex1.DB instance
@@ -37,7 +37,7 @@ and all requested object access goes through this particular instance.can be dis
 Static Utility is used when you have a class that is just stateless utility functions.. 
 it does not maintain state. An instance of the object is never instantiated.(static function
 
-[object pool]:
+*[object pool]:
 objects is initialized and created beforehand kept in pool
 objects in the pool never destroyed
 

@@ -1,0 +1,18 @@
+only one single instance of the struct
+should exist
+
+1.DB instance
+
+we only want to create only one db object that
+use throughout the application
+
+2.Logger instance
+
+again only one instance of the logger should be
+created and it should be used throughpout the application
+
+Singleton is used when a single object needs to be instantiated 
+and all requested object access goes through this particular instance.can be disposed (object oriented
+
+Static Utility is used when you have a class that is just stateless utility functions.. 
+it does not maintain state. An instance of the object is never instantiated.(static functions

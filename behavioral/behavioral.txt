@@ -11,7 +11,7 @@ without exposing implementation
 [templateMethod]:
 define a template skeleton.put the concrete detail in subclass
 
-[strategy]:
+*[strategy]:
 interface accept different behavior, change behavior at runtime
 
 [observer]:
